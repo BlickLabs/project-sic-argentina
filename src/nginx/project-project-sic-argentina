@@ -5,7 +5,7 @@ server {
   root /home/static/project-sic-argentina;
   index index.html index.htm;
 
-  server_name sandbox.sic-arg.getmore.mx www.arg.sic-la.com arg.sic-la.com sic-argentina.getmore.mx;
+  server_name sandbox.sic-arg.getmore.mx sicdeargentina.com.ar sic-argentina.getmore.mx;
 
   location / {
       try_files $uri $uri/ =404;
