@@ -101,13 +101,13 @@
         </div>
       </button>
       <div id="myDropdown3" class="dropdown-content">
-        <a href="http://www.sicco.com.co/">
+        <a href="https://www.sicco.com.co/">
           <img class="navbar-flag navbar-sections-title" src="img/icons/icon-flag-col.png">
         </a>
-        <a href="http://sic.com.mx/">
+        <a href="https://sic.com.mx/">
           <img class="navbar-flag navbar-sections-title" src="img/icons/icon-flag-mx.png">
         </a>
-        <a href="http://sic-chile.cl/">
+        <a href="https://sic-chile.cl/">
           <img class="navbar-flag navbar-sections-title" src="img/icons/icon-flag-chi.png">
         </a>
       </div>
@@ -195,13 +195,13 @@
           <img class="navbar-dropdown-icon-mobile" src="img/icons/icon-dropdown.png" data-attribute="">
         </div>
         <div id="myDropdown3Hamburger" class="dropdown-content">
-          <a href="http://www.sicco.com.co/">
+          <a href="https://www.sicco.com.co/">
             <img class="navbar-flag navbar-sections-title" src="img/icons/icon-flag-col.png">
           </a>
-          <a href="http://sic.com.mx/">
+          <a href="https://sic.com.mx/">
             <img class="navbar-flag navbar-sections-title" src="img/icons/icon-flag-mx.png">
           </a>
-          <a href="http://sic-chile.cl/">
+          <a href="https://sic-chile.cl/">
             <img class="navbar-flag navbar-sections-title" src="img/icons/icon-flag-chi.png">
           </a>
         </div>
@@ -218,7 +218,7 @@
     <div class="quote-title-container">
       <h1 class="fs-39 barlow-light">Cotiza</h1>
     </div>
-    <form class="quote-form" name="sic-quote-form" method="post" action="http://integrations.blick.mx/sic-arg/quote/form/">
+    <form class="quote-form" id="sic-quote-form" name="sic-quote-form" method="POST" enctype="multipart/form-data">
       <div class="material-container">
         <label class="material-label opensans-semibold" for="name">Nombre</label>
         <input class="material-input opensans-semibold" type="text" name="name" id="name" required>
@@ -241,7 +241,7 @@
       </div>
       <div class="material-container">
         <label class="material-label opensans-semibold" for="message">Mensaje</label>
-        <input class="material-input opensans-semibold" type="text" name="message" id="message">
+        <input class="material-input opensans-semibold" type="text" name="message" id="message" required>
       </div>
       <div class="contact-form-button-container">
         <button class="sic-button barlow-bold fs-13">enviar</button>
