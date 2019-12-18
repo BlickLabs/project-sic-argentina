@@ -32,6 +32,7 @@ solutionsCarouselMobile.owlCarousel ({
   loop: false,
   nav: true,
   dots: true,
+  autoHeight: true,
   navText: ['<img class="solutions-navigation-icon" src="img/icons/icon-arrow-left.png" />', '<img class="solutions-navigation-icon" src="img/icons/icon-arrow-right.png" />'],
   responsive:{
     0:{
